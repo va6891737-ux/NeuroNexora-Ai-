@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(app)
 
 client = OpenAI(
-    api_key=os.getenv("https://platform.openai.com/api-keys")
+    api_key=os.getenv("OPENAI_API_KEY")
 )
 
 
